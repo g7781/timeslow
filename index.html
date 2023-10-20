@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Online Bus Ticket Booking</h1>
+    <marquee height=30px
+    bgcolor="red"
+    direction="left"
+    loop="30px">
+    India's No. 1 Online Bus Ticket Booking Site
+</marquee>
+     <ui>
+            <div style="width: 600px;">
+                <div style="float: left; width: 130px"><button type="submit" class="msgBtn" onClick="return false;" >Home</button></div>
+                <div style ="float: left; width: 130px"><button type="submit" class="msgBtn2" onClick="return false;">Travel</button></div>
+                <div style ="float: left; width: 130px"><button class="msgBtnBack">Support</button></div>
+            </div>
+        </ui>
+
+        
+         <form id="bookingForm">
+        <label for="source">Source:</label>
+        <input type="text" id="source" required><br><br>
+        
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" required><br><br>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" required><br><br>
+        
+        <button type="submit">Search Buses</button>
+    </form>
+   
+    
+
+    <div id="results" style="display:none;">
+        <h2>Available Buses</h2>
+        <ul id="busList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

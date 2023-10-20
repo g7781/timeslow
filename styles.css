@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+body {
+    background-image: url("ui.png");
+    
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+form, #results {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #df1515a7;
+    border-radius: 10px;
+    background-color: #ee131add;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #601a1a;
+}
+
+ul {
+    list-style-type: none;
+    display:inline-block;
+    margin:20px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
